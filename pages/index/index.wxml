@@ -1,1 +1,4 @@
-hello world!
+<view class="title">hello {{wording}}!</view>
+<image class="img" mode="widthFix" src="../../img/communitySvgLogo.svg"></image>
+
+<button bind:tap="onClick">点击</button>
