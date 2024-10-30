@@ -1,14 +1,27 @@
 /**index.wxss**/
 
-Page {
+/* Page {
+  
+} */
+
+image {
+  width: 100%;
+}
+
+.comment {
   text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+.body {
+  padding: 30px;
+  line-height: 2;
 }
 
 .title {
-  color: red;
-}
-
-.img {
-  margin-top: 200rpx;
-  margin-bottom: 150rpx;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
