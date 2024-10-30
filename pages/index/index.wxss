@@ -1,27 +1,33 @@
-/**index.wxss**/
+.card {
+  margin: 10px;
+  position: relative;
+}
 
-/* Page {
-  
-} */
-
-image {
+.bg {
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #5f687e;
 }
 
-.comment {
-  text-align: center;
-  font-size: 14px;
-  color: #999;
+.logo {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
 
-.body {
-  padding: 30px;
-  line-height: 2;
+.info {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: darkgrey;
+  font-size: 16px;
 }
 
-.title {
-  font-size: 20px;
+.name {
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
+
+.desc {
+  margin-bottom: 10px;
 }
